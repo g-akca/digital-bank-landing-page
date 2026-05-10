@@ -2,6 +2,7 @@ import onlineIcon from "/images/icon-online.svg";
 import budgetingIcon from "/images/icon-budgeting.svg";
 import onboardingIcon from "/images/icon-onboarding.svg";
 import apiIcon from "/images/icon-api.svg";
+import FeatureItem from "./FeatureItem";
 
 const features = [
   {
