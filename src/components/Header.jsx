@@ -8,7 +8,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white fixed z-50 h-16 w-full p-6 flex justify-between items-center">
+    <header className="bg-white fixed z-50 h-16 w-full p-6 tablet:px-20 flex justify-between items-center">
       {isMenuOpen && <Menu />}
 
       <img src={darkLogo} alt="Digitalbank logo" className="w-38.5" />
