@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-base leading-base min-h-screen">
+    <div className="text-base leading-base text-gray-600 min-h-screen">
       <Header />
       <HeroSection />
       <MainSection />
