@@ -26,8 +26,8 @@ const articles = [
   {
     image: confettiImg,
     writer: "Claire Robinson",
-    title: "Receive money in any currency with no fees",
-    description: "The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …"
+    title: "Our invite-only Beta accounts are now live!",
+    description: "After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through ..."
   }
 ];
 
