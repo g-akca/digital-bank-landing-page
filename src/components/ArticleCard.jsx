@@ -1,4 +1,4 @@
-function ArticleCard({ writer, title, description }) {
+function ArticleCard({ image, writer, title, description }) {
   return (
     <>
     </>
