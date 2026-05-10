@@ -1,3 +1,5 @@
+import InviteButton from "./InviteButton";
+
 function HeroContent() {
   return (
     <div className="self-center max-w-111.75 px-6 flex flex-col gap-6 items-center text-center">
@@ -5,9 +7,7 @@ function HeroContent() {
 
       <p>Take your financial life online. Your Digitalbank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
 
-      <button type="button" className="px-8 py-2 rounded-[22px] bg-linear-15 from-[#2AB6D9] to-[#33D35E] to-90% text-white font-bold leading-[200%]">
-        Request Invite
-      </button>
+      <InviteButton />
     </div>
   )
 }
