@@ -24,12 +24,12 @@ function Footer() {
           </div>
 
           <nav className="flex flex-col gap-4 text-center desktop:text-start desktop:grid desktop:grid-cols-[160px_160px] desktop:gap-y-6 desktop:gap-x-8">
-            <a href="#" className="desktop:row-start-1 desktop:col-start-1">About Us</a>
-            <a href="#" className="desktop:row-start-2 desktop:col-start-1">Contact</a>
-            <a href="#" className="desktop:row-start-3 desktop:col-start-1">Blog</a>
-            <a href="#" className="desktop:row-start-1 desktop:col-start-2">Careers</a>
-            <a href="#" className="desktop:row-start-2 desktop:col-start-2">Support</a>
-            <a href="#" className="desktop:row-start-3 desktop:col-start-2">Privacy Policy</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-1 desktop:col-start-1">About Us</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-2 desktop:col-start-1">Contact</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-3 desktop:col-start-1">Blog</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-1 desktop:col-start-2">Careers</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-2 desktop:col-start-2">Support</a>
+            <a href="#" className="transition-all hover:text-green-400 desktop:row-start-3 desktop:col-start-2">Privacy Policy</a>
           </nav>
         </div>
 

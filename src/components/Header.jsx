@@ -5,6 +5,8 @@ import { useState } from "react";
 import Menu from "./Menu";
 import InviteButton from "./InviteButton";
 
+const navStyles = "relative transition-all duration-200 hover:text-blue-950 after:transition-all after:duration-200 after:absolute after:content-[''] after:h-1 after:w-0 after:-bottom-8 after:left-1/2 after:-translate-x-1/2 after:bg-linear-15 after:from-[#2AB6D9] after:to-[#33D35E] after:to-90% hover:after:w-full";
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -16,16 +18,16 @@ function Header() {
         <img src={darkLogo} alt="Digitalbank logo" className="w-38.5" />
 
         <nav className="hidden desktop:flex items-center gap-8">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
+          <a href="#" className={navStyles}>Home</a>
+          <a href="#" className={navStyles}>About</a>
+          <a href="#" className={navStyles}>Contact</a>
+          <a href="#" className={navStyles}>Blog</a>
+          <a href="#" className={navStyles}>Careers</a>
         </nav>
 
         <InviteButton className="hidden desktop:block" />
 
-        <button type="button" onClick={() => setIsMenuOpen(prev => !prev)} className="desktop:hidden">
+        <button type="button" onClick={() => setIsMenuOpen(prev => !prev)} className="cursor-pointer desktop:hidden">
           {isMenuOpen ? (
             <img src={closeIcon} alt="Close menu" className="w-4.5" />
           ) : (

@@ -7,7 +7,7 @@ function ArticleCard({ image, writer, title, description }) {
         <p className="text-[10px] leading-base">By {writer}</p>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-light text-[16px] leading-[120%] tracking-[-0.25px] text-blue-950">{title}</h3>
+          <a href="#" className="font-light text-[16px] leading-[120%] tracking-[-0.25px] text-blue-950 transition-all hover:text-green-400">{title}</a>
           <p>{description}</p>
         </div>
       </div>
