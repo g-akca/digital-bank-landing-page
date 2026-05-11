@@ -33,7 +33,7 @@ const articles = [
 
 function ArticlesList() {
   return (
-    <div className="flex flex-col gap-4 max-w-90 tablet:max-w-172 tablet:grid tablet:grid-cols-2">
+    <div className="flex flex-col gap-4 max-w-90 tablet:max-w-172 tablet:grid tablet:grid-cols-2 desktop:grid-cols-4 desktop:gap-8 desktop:max-w-none">
       {articles.map(article => (
         <ArticleCard
           key={article.title}

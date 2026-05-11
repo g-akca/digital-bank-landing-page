@@ -3,7 +3,7 @@ function ArticleCard({ image, writer, title, description }) {
     <article className="bg-white rounded-[5px] overflow-hidden">
       <img src={image} alt="Article image" className="w-full h-50 object-cover" />
 
-      <div className="px-7.5 tablet:px-10 py-6 flex flex-col gap-4">
+      <div className="px-7.5 tablet:px-10 desktop:px-5 py-6 flex flex-col gap-4">
         <p className="text-[10px] leading-base">By {writer}</p>
 
         <div className="flex flex-col gap-2">
