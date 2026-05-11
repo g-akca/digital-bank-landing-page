@@ -15,11 +15,21 @@ function Footer() {
             <img src={lightLogo} alt="Digitalbank logo" className="w-38.25" />
 
             <nav className="flex gap-4 items-center">
-              <img src={facebookIcon} alt="Facebook icon" />
-              <img src={youtubeIcon} alt="Youtube icon" />
-              <img src={twitterIcon} alt="Twitter icon" />
-              <img src={pinterestIcon} alt="Pinterest icon" />
-              <img src={instagramIcon} alt="Instagram icon" />
+              <button type="button" className="cursor-pointer">
+                <img src={facebookIcon} alt="Facebook icon" />
+              </button>
+              <button type="button" className="cursor-pointer">
+                <img src={youtubeIcon} alt="Youtube icon" />
+              </button>
+              <button type="button" className="cursor-pointer">
+                <img src={twitterIcon} alt="Twitter icon" />
+              </button>
+              <button type="button" className="cursor-pointer">
+                <img src={pinterestIcon} alt="Pinterest icon" />
+              </button>
+              <button type="button" className="cursor-pointer">
+                <img src={instagramIcon} alt="Instagram icon" />
+              </button>
             </nav>
           </div>
 
