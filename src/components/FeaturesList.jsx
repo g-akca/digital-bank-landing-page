@@ -29,7 +29,7 @@ const features = [
 
 function FeaturesList() {
   return (
-    <ul className="flex flex-col gap-8 max-w-90 tablet:max-w-152 text-center tablet:text-start tablet:grid tablet:grid-cols-2 tablet:gap-x-14 tablet:gap-y-16">
+    <ul className="flex flex-col gap-8 max-w-90 tablet:max-w-152 desktop:max-w-279 text-center tablet:text-start tablet:grid tablet:grid-cols-2 tablet:gap-x-14 tablet:gap-y-16 desktop:grid-cols-4 desktop:gap-8">
       {features.map(feature => (
         <FeatureItem 
           key={feature.name}
