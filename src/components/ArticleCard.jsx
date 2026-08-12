@@ -1,13 +1,15 @@
 function ArticleCard({ image, writer, title, description }) {
   return (
     <article className="bg-white rounded-[5px] overflow-hidden">
-      <img src={image} alt="Article image" className="w-full h-50 object-cover" />
+      <img src={image} alt="" className="w-full h-50 object-cover" />
 
       <div className="px-7.5 tablet:px-10 desktop:px-5 py-6 flex flex-col gap-4">
         <p className="text-[10px] leading-base">By {writer}</p>
 
         <div className="flex flex-col gap-2">
-          <a href="#" className="font-light text-[16px] leading-[120%] tracking-[-0.25px] text-blue-950 transition-all hover:text-green-400">{title}</a>
+          <h3>
+            <a href="#" className="font-light text-[16px] leading-[120%] tracking-[-0.25px] text-blue-950 transition-all hover:text-green-400">{title}</a>
+          </h3>
           <p>{description}</p>
         </div>
       </div>
