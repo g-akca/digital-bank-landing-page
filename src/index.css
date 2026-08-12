@@ -8,6 +8,9 @@
   --color-blue-950: #2D314D;
 
   --color-green-400: #30C88F;
+  --color-invite-gradient-start: #2AB6D9;
+  --color-invite-gradient-end: #33D35E;
+  --background-image-invite-gradient: linear-gradient(15deg, var(--color-invite-gradient-start) 0%, var(--color-invite-gradient-end) 90%);
 
   --font-sans: "Public Sans", sans-serif;
   --text-base: 14px;

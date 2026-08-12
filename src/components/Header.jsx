@@ -5,7 +5,7 @@ import { useState } from "react";
 import Menu from "./Menu";
 import InviteButton from "./InviteButton";
 
-const navStyles = "relative transition-all duration-200 hover:text-blue-950 after:transition-all after:duration-200 after:absolute after:content-[''] after:h-1 after:w-0 after:-bottom-8 after:left-1/2 after:-translate-x-1/2 after:bg-linear-15 after:from-[#2AB6D9] after:to-[#33D35E] after:to-90% hover:after:w-full";
+const navStyles = "relative transition-all duration-200 hover:text-blue-950 after:transition-all after:duration-200 after:absolute after:content-[''] after:h-1 after:w-0 after:-bottom-8 after:left-1/2 after:-translate-x-1/2 after:bg-invite-gradient hover:after:w-full";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
