@@ -4,6 +4,7 @@ import closeIcon from "/images/icon-close.svg";
 import { useState } from "react";
 import Menu from "./Menu";
 import InviteButton from "./InviteButton";
+import Navigation from "./Navigation";
 
 const navStyles = "relative transition-all duration-200 hover:text-blue-950 after:transition-all after:duration-200 after:absolute after:content-[''] after:h-1 after:w-0 after:-bottom-8 after:left-1/2 after:-translate-x-1/2 after:bg-invite-gradient hover:after:w-full";
 
@@ -17,13 +18,7 @@ function Header() {
       <div className="w-full flex justify-between items-center max-w-277.5">
         <img src={darkLogo} alt="Digitalbank logo" className="w-38.5" />
 
-        <nav className="hidden desktop:flex items-center gap-8">
-          <a href="#" className={navStyles}>Home</a>
-          <a href="#" className={navStyles}>About</a>
-          <a href="#" className={navStyles}>Contact</a>
-          <a href="#" className={navStyles}>Blog</a>
-          <a href="#" className={navStyles}>Careers</a>
-        </nav>
+        <Navigation className="hidden desktop:flex items-center gap-8" linkClassName={navStyles} />
 
         <InviteButton className="hidden desktop:block" />
 
